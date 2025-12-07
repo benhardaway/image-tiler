@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Client-Side Image Tiler</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 40px;
+        }
+
+        img,
+        canvas {
+            max-width: 500px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Image Tiler (Client-Side Only)</h1>
+
+    <input type="file" id="fileInput" accept="image/*"><br><br>
+
+    <button id="tileBtn">Tile</button>
+
+    <h2>Original:</h2>
+    <img id="original">
+
+    <h2>Tiled:</h2>
+    <canvas id="canvas"></canvas><br>
+    <button id="downloadBtn">Download Image</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
