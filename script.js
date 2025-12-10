@@ -46,15 +46,15 @@ document.getElementById("tileBtn").addEventListener("click", () => {
     }
 
     // draw pattern
-    draw(Q1, 1, 0);
-    draw(Q2, 2, 0);
+    draw(Q1, 0, 0);
+    draw(Q2, 1, 0);
 
-    draw(Q4, 0, 1);
-    draw(Q3, 1, 1);
-    draw(Q4, 2, 1);
+    draw(Q3, 0, 1);
+    draw(Q4, 1, 1);
+    draw(Q3, 2, 1)
 
-    draw(Q2, 0, 2);
-    draw(Q1, 1, 2);
+    draw(Q2, 1, 2);
+    draw(Q1, 2, 2);
 });
 
 document.getElementById("downloadBtn").addEventListener("click", () => {
